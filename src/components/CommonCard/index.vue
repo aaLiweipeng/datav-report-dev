@@ -50,3 +50,27 @@ export default {
     color: #666;
 }
 </style>
+
+<style lang="scss">
+.emphasis {
+  margin-left: .05rem;
+  color: #333;
+  font-weight: 666; //字加粗！！
+}
+.increase {
+    width: 0;
+    height: 0;
+    border-width: 0.03rem;
+    border-color: transparent transparent red transparent;
+    border-style: solid;
+    margin: 0 0 .03rem .05rem;
+  }
+  .decrease {
+    width: 0;
+    height: 0;
+    border-width: 0.03rem;
+    border-color: green transparent transparent transparent;
+    border-style: solid;
+    margin: .03rem 0 0 .05rem;
+  }
+</style>
