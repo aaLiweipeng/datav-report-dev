@@ -8,17 +8,20 @@
             </el-col>
             <el-col :span="6">
                 <el-card shadow="hover">
-                    <TotalOrders />
+                    <!-- <TotalOrders /> -->
+                    <TotalOrdersVEcharts />
                 </el-card>
             </el-col>
             <el-col :span="6">
                 <el-card shadow="hover">
-                    <TodayUsers />
+                    <!-- <TodayUsers /> -->
+                    <TodayUsersVEcharts />
                 </el-card>
             </el-col>
             <el-col :span="6">
                 <el-card shadow="hover">
-                    <TotalUsers />
+                    <!-- <TotalUsers /> -->
+                    <TotalUsersVEcharts />
                 </el-card>
             </el-col>
         </el-row>
@@ -27,16 +30,19 @@
 
 <script>
 import TotalSales from '../TotalSales'
-import TotalOrders from '../TotalOrders'
-import TodayUsers from '../TodayUsers'
-import TotalUsers from '../TotalUsers'
+// import TotalOrders from '../TotalOrders'
+import TotalOrdersVEcharts from '../TotalOrdersVEcharts'
+// import TodayUsers from '../TodayUsers'
+import TodayUsersVEcharts from '../TodayUsersVEcharts'
+// import TotalUsers from '../TotalUsers'
+import TotalUsersVEcharts from '../TotalUsersVEcharts'
 
 export default {
   components: {
     TotalSales,
-    TotalOrders,
-    TodayUsers,
-    TotalUsers
+    TotalOrdersVEcharts,
+    TodayUsersVEcharts,
+    TotalUsersVEcharts
   }
 }
 </script>
